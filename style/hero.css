@@ -35,7 +35,6 @@ section.hero {
 
   & h1 span {
     display: block;
-
     animation: slideUp 5s 2s infinite ease;
   }
 
@@ -221,5 +220,25 @@ section.hero {
 
   100% {
     transform: translateY(-15rem);
+  }
+}
+
+@media (width <= 79.9375em) {
+  section.hero {
+    max-width: 79.9375rem;
+    flex-direction: column-reverse;
+
+    & h1 {
+      max-width: 19.5rem;
+      margin-inline: auto;
+    }
+
+    & h1 div {
+      height: 2.5rem;
+    }
+
+    & .buttons {
+      flex-direction: column-reverse;
+    }
   }
 }

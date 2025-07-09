@@ -40,3 +40,5 @@
     transform: translateX(-132px);
   }
 }
+
+@media (width <= 79.9375em) {}

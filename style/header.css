@@ -46,3 +46,5 @@ header.top {
     border-radius: 50%;
   }
 }
+
+@media (width <= 79.9375em) {}
